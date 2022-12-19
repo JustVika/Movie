@@ -1,0 +1,20 @@
+.Search__input {
+  margin-bottom: 32px;
+  margin-top: 12px;
+  height: 40px;
+  width: 100%;
+  caret-color: black;
+  outline: none;
+  background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+::placeholder { 
+    font-family: 'Inter UI';
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.25);
+    
+    
+ }
