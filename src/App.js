@@ -60,6 +60,7 @@ export default class App extends React.Component {
   getMovies = async (page = 1, label = '') => {
     this.setState({
       loading: true,
+      countMovies: 0,
       currentPage: page,
       searchLine: label,
       error: false,
@@ -98,6 +99,7 @@ export default class App extends React.Component {
       tab: key,
       loading: true,
       error: false,
+      countMovies: 0,
     })
     if (key === '2') this.getMoviesRate()
     else this.getMovies()

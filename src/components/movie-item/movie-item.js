@@ -76,8 +76,8 @@ function Genre(props) {
   return (
     <C>
       {(genres) => {
-        const { id } = props
-        const oneGenre = genres.find((genre) => genre.id === id)
+        const { idx } = props
+        const oneGenre = genres.find((genre) => genre.id === idx)
         return (
           <div className="movie__genre" key={oneGenre.id}>
             {oneGenre.name}
